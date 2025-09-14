@@ -11,7 +11,7 @@ const authRoutes = require("./routes/auth");
 const projectRoutes = require("./routes/project");
 const contactUs = require("./routes/contactUs");
 app.use(cors({
-    origin:"*",
+    origin:"https://portfolio-website-brown-seven-68.vercel.app",
     credentials:true,
 }));
 app.use(express.json());
